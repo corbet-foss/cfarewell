@@ -4,7 +4,7 @@ The main branch prepares 0.3.0 under LGPL-3.0-only WITH LGPL-3.0-linking-excepti
 to registries. The existing releases documented below keep their original
 license grants; this change does not replace their artifacts.
 
-This guide describes version 0.2.1. Check the linked registry or release
+This guide describes version 0.3.0. Check the linked registry or release
 for availability; a source manifest alone does not establish publication.
 
 ## JavaScript and Rust
@@ -18,18 +18,18 @@ verify that lower bound.
 ## Python and the command line
 
 The pure Python package requires Python 3.10+ and is published on
-[PyPI](https://pypi.org/project/cfarewell/0.2.1/). Install this release with pip
+[PyPI](https://pypi.org/project/cfarewell/0.3.0/). Install this release with pip
 or uv in your Python environment:
 
 ```sh
-python -m pip install cfarewell==0.2.1
+python -m pip install cfarewell==0.3.0
 ```
 
 ```sh
-uv pip install cfarewell==0.2.1
+uv pip install cfarewell==0.3.0
 ```
 
-For a uv project, `uv add cfarewell==0.2.1` adds the package to your dependencies.
+For a uv project, `uv add cfarewell==0.3.0` adds the package to your dependencies.
 
 After installation, functions can be called from Python or through either CLI
 entrypoint:
@@ -43,27 +43,27 @@ The CLI takes a function name and a JSON array of positional arguments or an
 object of keyword arguments. Use `-` to read arguments from stdin. It writes
 JSON to stdout; errors use stderr and a nonzero exit status.
 
-For an isolated CLI environment, use `pipx install cfarewell==0.2.1` or
-`uv tool install cfarewell==0.2.1`.
+For an isolated CLI environment, use `pipx install cfarewell==0.3.0` or
+`uv tool install cfarewell==0.3.0`.
 
 The wheel contains no native extensions and is platform independent. Release
 evidence records the Python version and operating system actually exercised.
 Verified wheels and source distributions are also attached to the
-[GitHub release](https://github.com/corbet-labs/cfarewell/releases/tag/v0.2.1).
+[GitHub release](https://github.com/corbet-labs/cfarewell/releases/tag/v0.3.0).
 
 ## JSR
 
 The JSR package is
-[`@corbet-foss/cfarewell`](https://jsr.io/@corbet-foss/cfarewell@0.2.1):
+[`@corbet-foss/cfarewell`](https://jsr.io/@corbet-foss/cfarewell@0.3.0):
 
 ```sh
-deno add jsr:@corbet-foss/cfarewell@0.2.1
+deno add jsr:@corbet-foss/cfarewell@0.3.0
 ```
 
 ## Typst
 
-Download `cfarewell-0.2.1-typst.tar.gz` from the matching GitHub release and
-extract its contents into `typst/packages/local/cfarewell/0.2.1` under your
+Download `cfarewell-0.3.0-typst.tar.gz` from the matching GitHub release and
+extract its contents into `typst/packages/local/cfarewell/0.3.0` under your
 [Typst data directory](https://github.com/typst/packages#local-packages):
 
 | System | Data directory |
@@ -73,7 +73,7 @@ extract its contents into `typst/packages/local/cfarewell/0.2.1` under your
 | Windows | `%APPDATA%` |
 
 ```typst
-#import "@local/cfarewell:0.2.1": *
+#import "@local/cfarewell:0.3.0": *
 ```
 
 The archive includes its manifest, tables, source, and licenses. CI compiles

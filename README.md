@@ -110,8 +110,7 @@ with the incorporated [GPL version 3](https://github.com/corbet-foss/cfarewell/b
 Combined works may link statically or dynamically without relinking duties;
 library modifications stay LGPL. Applications can use a different license
 subject to the LGPL's conditions.
-Version 0.2.1 retains Apache-2.0; versions 0.2.0 and earlier retain their
-FSL-1.1-ALv2 grants. The installation examples above refer to those available
+Version 0.2.1 retains Apache-2.0. The installation examples above refer to those available
 releases; 0.3.0 has not yet been published to registries.
 
 See the [licensing notes](https://github.com/corbet-foss/cfarewell/blob/main/LICENSE.md) for distribution conditions and retained notices.

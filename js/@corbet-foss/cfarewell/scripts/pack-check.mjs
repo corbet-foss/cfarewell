@@ -21,7 +21,7 @@ else if (manager === 'pnpm') run('npx', ['--yes', 'pnpm@10.15.1', 'add', '--igno
 else if (manager === 'yarn') run('npx', ['--yes', 'yarn@1.22.22', 'add', '--ignore-scripts', tarball], consumer);
 else if (manager === 'bun') run('bun', ['add', '--ignore-scripts', tarball], consumer);
 else throw new Error(`Unknown manager ${manager}`);
-// Inspect the installed artifact, including removal of obsolete generated notices.
+// Inspect the installed artifact, including the generated license inventory.
 const installed = join(consumer, 'node_modules', pkg.name);
 const published = JSON.parse(readFileSync(join(installed, 'package.json'), 'utf8'));
 if (published.version !== pkg.version || published.license !== pkg.license) throw new Error('Installed version or license differs');
