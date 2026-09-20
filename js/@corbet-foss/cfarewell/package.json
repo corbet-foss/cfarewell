@@ -1,5 +1,5 @@
 {
-  "name": "@corbet-labs/cfarewell",
+  "name": "@corbet-foss/cfarewell",
   "version": "0.3.0",
   "description": "Deterministic locale-correct valedictions for formal correspondence. Mirrors the cfarewell Rust crate release line.",
   "license": "LGPL-3.0-only WITH LGPL-3.0-linking-exception",
@@ -9,8 +9,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/corbet-labs/cfarewell.git",
-    "directory": "js/@corbet-labs/cfarewell"
+    "url": "git+https://github.com/corbet-foss/cfarewell.git",
+    "directory": "js/@corbet-foss/cfarewell"
   },
   "type": "module",
   "main": "./dist/index.cjs",
@@ -56,9 +56,9 @@
   "engines": {
     "node": ">=20"
   },
-  "homepage": "https://github.com/corbet-labs/cfarewell#readme",
+  "homepage": "https://github.com/corbet-foss/cfarewell#readme",
   "bugs": {
-    "url": "https://github.com/corbet-labs/cfarewell/issues"
+    "url": "https://github.com/corbet-foss/cfarewell/issues"
   },
   "keywords": [
     "i18n",
