@@ -6,12 +6,12 @@
 
 **The right closing line for a formal letter.**
 
-[![crates.io](https://img.shields.io/crates/v/cfarewell.svg)](https://crates.io/crates/cfarewell) [![npm](https://img.shields.io/npm/v/@corbet-foss/cfarewell.svg)](https://www.npmjs.com/package/@corbet-foss/cfarewell) [![PyPI](https://img.shields.io/pypi/v/cfarewell.svg)](https://pypi.org/project/cfarewell/) [![Rust API](https://docs.rs/cfarewell/badge.svg)](https://docs.rs/cfarewell)
+[![crates.io](https://img.shields.io/crates/v/cfarewell.svg)](https://crates.io/crates/cfarewell) [![npm](https://img.shields.io/npm/v/@corbet-labs/cfarewell.svg)](https://www.npmjs.com/package/@corbet-labs/cfarewell) [![PyPI](https://img.shields.io/pypi/v/cfarewell.svg)](https://pypi.org/project/cfarewell/) [![Rust API](https://docs.rs/cfarewell/badge.svg)](https://docs.rs/cfarewell)
 
 Choose a valediction from 40 locale entries, including Swiss German, British English, French, and Japanese. Explicit wording always takes precedence over table defaults. No model or network calls.
 
 ```js
-import { closing } from '@corbet-foss/cfarewell';
+import { closing } from '@corbet-labs/cfarewell';
 
 closing('de-ch');
 // Freundliche Grüsse
@@ -24,11 +24,11 @@ closing('de-ch');
 | Rust / Cargo | `cargo add cfarewell` |
 | Python / pip | `python -m pip install cfarewell` |
 | Python / uv | `uv add cfarewell` |
-| Node.js / npm | `npm install @corbet-foss/cfarewell` |
-| pnpm | `pnpm add @corbet-foss/cfarewell` |
-| Yarn | `yarn add @corbet-foss/cfarewell` |
-| Bun | `bun add @corbet-foss/cfarewell` |
-| Deno | `deno add npm:@corbet-foss/cfarewell` |
+| Node.js / npm | `npm install @corbet-labs/cfarewell` |
+| pnpm | `pnpm add @corbet-labs/cfarewell` |
+| Yarn | `yarn add @corbet-labs/cfarewell` |
+| Bun | `bun add @corbet-labs/cfarewell` |
+| Deno | `deno add npm:@corbet-labs/cfarewell` |
 
 The 0.2.1 JavaScript distribution includes compiled ESM, CommonJS,
 TypeScript declarations, and a standalone browser module. Node.js 20+ is
@@ -36,12 +36,12 @@ supported; no TypeScript loader is required.
 
 ```js
 // CommonJS
-const { closing } = require('@corbet-foss/cfarewell');
+const { closing } = require('@corbet-labs/cfarewell');
 ```
 
 ```html
 <script type="module">
-  import { closing } from 'https://cdn.jsdelivr.net/npm/@corbet-foss/cfarewell@0.2.1/dist/browser.js';
+  import { closing } from 'https://cdn.jsdelivr.net/npm/@corbet-labs/cfarewell@0.2.1/dist/browser.js';
   console.log(closing('de-ch'));
 </script>
 ```

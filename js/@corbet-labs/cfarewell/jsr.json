@@ -1,5 +1,5 @@
 {
-  "name": "@corbet-foss/cfarewell",
+  "name": "@corbet-labs/cfarewell",
   "version": "0.3.0",
   "exports": "./src/index.ts",
   "license": "LGPL-3.0-only",
